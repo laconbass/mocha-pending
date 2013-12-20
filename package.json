@@ -1,0 +1,31 @@
+{
+  "name": "mocha-pending",
+  "version": "1.0.0",
+  "description": "Mocha reporter. Prints out all the pending tests hierarchy in a similar way to the spec reporter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laconbass/mocha-pending.git"
+  },
+  "keywords": [
+    "mocha",
+    "reporter",
+    "pending",
+    "tests"
+  ],
+  "author": {
+    "name": "Lorenzo García Rivera"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laconbass/mocha-pending/issues"
+  },
+  "homepage": "https://github.com/laconbass/mocha-pending",
+  "readme": "mocha-pending\n=============\n\nMocha reporter. Prints out all the pending tests hierarchy in\na similar way to the spec reporter.\n\n## Installation\n\n'''\nnpm install mocha-pending --save-dev\n'''\n\n## Usage\n\nWhen mocha is globally installed\n\n'''\nmocha -R mocha-pending\n'''\n\nWhen mocha is locally installed\n\n'''\n./node_modules/.bin/mocha -R mocha-pending\n'''\n",
+  "readmeFilename": "README.md",
+  "_id": "mocha-pending@1.0.0",
+  "_from": "mocha-pending@"
+}
